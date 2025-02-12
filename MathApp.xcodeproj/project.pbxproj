@@ -6,17 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4931C9A02D5CE63000B10D4A /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931C99D2D5CE63000B10D4A /* LandingView.swift */; };
+		4931C9A12D5CE63000B10D4A /* MathAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931C99E2D5CE63000B10D4A /* MathAppApp.swift */; };
+		4931C9A22D5CE63000B10D4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4931C99A2D5CE63000B10D4A /* Preview Assets.xcassets */; };
+		4931C9A32D5CE63000B10D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4931C99C2D5CE63000B10D4A /* Assets.xcassets */; };
+		4931C9A62D5CE6AD00B10D4A /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931C9A52D5CE6AD00B10D4A /* AdditionView.swift */; };
+		4931C9A82D5CE73900B10D4A /* SubtractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931C9A72D5CE73900B10D4A /* SubtractionView.swift */; };
+		4931C9AA2D5CE79400B10D4A /* MultiplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931C9A92D5CE79400B10D4A /* MultiplicationView.swift */; };
+		4931C9AC2D5CE7A000B10D4A /* DivisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931C9AB2D5CE7A000B10D4A /* DivisionView.swift */; };
+		4931C9AE2D5CE7B200B10D4A /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931C9AD2D5CE7B200B10D4A /* SquareView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4931C9892D5CE4C600B10D4A /* MathApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4931C99A2D5CE63000B10D4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4931C99C2D5CE63000B10D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4931C99D2D5CE63000B10D4A /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		4931C99E2D5CE63000B10D4A /* MathAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathAppApp.swift; sourceTree = "<group>"; };
+		4931C9A52D5CE6AD00B10D4A /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
+		4931C9A72D5CE73900B10D4A /* SubtractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionView.swift; sourceTree = "<group>"; };
+		4931C9A92D5CE79400B10D4A /* MultiplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationView.swift; sourceTree = "<group>"; };
+		4931C9AB2D5CE7A000B10D4A /* DivisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionView.swift; sourceTree = "<group>"; };
+		4931C9AD2D5CE7B200B10D4A /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		4931C98B2D5CE4C600B10D4A /* MathApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MathApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4931C9862D5CE4C600B10D4A /* Frameworks */ = {
@@ -32,7 +45,7 @@
 		4931C9802D5CE4C600B10D4A = {
 			isa = PBXGroup;
 			children = (
-				4931C98B2D5CE4C600B10D4A /* MathApp */,
+				4931C99F2D5CE63000B10D4A /* MathApp */,
 				4931C98A2D5CE4C600B10D4A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +56,38 @@
 				4931C9892D5CE4C600B10D4A /* MathApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4931C99B2D5CE63000B10D4A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4931C99C2D5CE63000B10D4A /* Assets.xcassets */,
+				4931C99A2D5CE63000B10D4A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4931C99F2D5CE63000B10D4A /* MathApp */ = {
+			isa = PBXGroup;
+			children = (
+				4931C99E2D5CE63000B10D4A /* MathAppApp.swift */,
+				4931C9A42D5CE63500B10D4A /* Views */,
+				4931C99B2D5CE63000B10D4A /* Preview Content */,
+			);
+			path = MathApp;
+			sourceTree = "<group>";
+		};
+		4931C9A42D5CE63500B10D4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4931C99D2D5CE63000B10D4A /* LandingView.swift */,
+				4931C9A52D5CE6AD00B10D4A /* AdditionView.swift */,
+				4931C9A72D5CE73900B10D4A /* SubtractionView.swift */,
+				4931C9A92D5CE79400B10D4A /* MultiplicationView.swift */,
+				4931C9AB2D5CE7A000B10D4A /* DivisionView.swift */,
+				4931C9AD2D5CE7B200B10D4A /* SquareView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +104,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				4931C98B2D5CE4C600B10D4A /* MathApp */,
 			);
 			name = MathApp;
 			packageProductDependencies = (
@@ -109,6 +151,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4931C9A22D5CE63000B10D4A /* Preview Assets.xcassets in Resources */,
+				4931C9A32D5CE63000B10D4A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4931C9A02D5CE63000B10D4A /* LandingView.swift in Sources */,
+				4931C9AC2D5CE7A000B10D4A /* DivisionView.swift in Sources */,
+				4931C9AA2D5CE79400B10D4A /* MultiplicationView.swift in Sources */,
+				4931C9A82D5CE73900B10D4A /* SubtractionView.swift in Sources */,
+				4931C9AE2D5CE7B200B10D4A /* SquareView.swift in Sources */,
+				4931C9A12D5CE63000B10D4A /* MathAppApp.swift in Sources */,
+				4931C9A62D5CE6AD00B10D4A /* AdditionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
