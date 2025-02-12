@@ -18,21 +18,31 @@ struct AdditionView: View {
         }
         
         var body: some View {
-            VStack(alignment: .trailing) {
+            VStack(alignment: .trailing, spacing: -20) {
+                
+                Spacer()
+                
                 Text("\(number1)")
+                    .font(.system(size: 96))
+                    .padding()
+
                 
                 HStack {
-                    Image(systemName: "plus")
-                    Text("\(number2)")
+                    TextField("Second Number", text: "\($number2)")
+                        .font(.system(size: 96))
+                        .padding()
                 }
                 
                 Divider()
+                    .padding()
                 
                 HStack {
-                    Image(systemName: "equal")
-                    Text("\(additionSolution)")
+                    Text("= \(additionSolution)")
+                        .font(.system(size: 96))
+                        .padding()
                 }
                 
+                Spacer()
             }
     }
 }
