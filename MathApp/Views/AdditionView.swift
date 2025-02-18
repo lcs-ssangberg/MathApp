@@ -14,11 +14,11 @@ struct AdditionView: View {
     
     // MARK: Computed properties
     
-    var number1: Int {
+    private var number1: Int {
         return Int(number1Text) ?? 0
     }
     
-    var number2: Int {
+    private var number2: Int {
         return Int(number2Text) ?? 0
     }
     
