@@ -36,11 +36,23 @@ struct SquareView: View {
                         Text("\(squared)")
                             .font(.system(size: 96))
                     }
-                        
-                    Stepper(value: $base, label: {
-                        Text("Base")
-                    })
                     
+                    Rectangle()
+                        .frame(height: 8)
+                        .frame(maxWidth: .infinity)
+                        .foregroundColor(.gray)
+                        .cornerRadius(4)
+                        .padding(.horizontal, 20)
+                        
+                    
+                    
+                    HStack {
+                        Stepper(value: $base, label: {
+                            Text("Base")
+                                .padding()
+                        })
+                    }
+                                        
                     Spacer()
                 }
                 .padding()

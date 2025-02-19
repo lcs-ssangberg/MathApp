@@ -39,7 +39,7 @@ struct DivisionView: View {
                 .multilineTextAlignment(.trailing)
             
             HStack {
-                Text("/")
+                Text("÷")
                     .font(.system(size: 96))
                     .padding()
                 
@@ -64,7 +64,7 @@ struct DivisionView: View {
                 
                 Spacer()
                 
-                Text("\(divisionSolution)")
+                Text("\(divisionSolution.formatted())")
                     
                     .font(.system(size: 96))
                     .padding()
