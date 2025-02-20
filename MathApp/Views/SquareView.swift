@@ -22,19 +22,25 @@ struct SquareView: View {
                     
                     Spacer()
                     
-                    HStack(alignment: .top) {
-                        
-                        Text("(\(base))")
-                            .font(.system(size: 96))
-         
-                        Text("2")
-                            .font(.system(size: 44))
-         
-                        Text("=")
-                            .font(.system(size: 96))
+                    HStack(alignment: .center) {
+                        Group {
+                            Text("(\(base))")
+                                .font(.system(size: 96))
+             
+                            Text("2")
+                                .font(.system(size: 44))
+                                .padding(.bottom, 30)
+                            
+                            Text("=")
+                                .font(.system(size: 96))
+                        }
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.5)
          
                         Text("\(squared)")
                             .font(.system(size: 96))
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.5)
                     }
                     
                     Rectangle()
